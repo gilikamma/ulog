@@ -17,7 +17,7 @@ void my_console_logger(ulog_level_t severity, const char *file, int line, const 
          "time", // user defined function
          ULOG_LEVEL_NAME(severity),
          file,//file
-				 line,//line
+         line,//line
          msg);
 }
 
@@ -27,7 +27,7 @@ void my_file_logger(ulog_level_t severity, const char *file, int line, const cha
          "time", // user defined function
          ULOG_LEVEL_NAME(severity),
          file,//file
-				 line,//line
+         line,//line
          msg);
 }
 
