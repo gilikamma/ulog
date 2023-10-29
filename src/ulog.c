@@ -108,7 +108,7 @@ const char *ulog_level_name(ulog_level_t severity) {
   }
 }
 
-void ulog_message(ulog_level_t severity,const char* file, int line, const char *fmt, ...) {
+void ulog_message(ulog_level_t severity,const char *file, int line, const char *fmt, ...) {
   va_list ap;
   int i;
   va_start(ap, fmt);
